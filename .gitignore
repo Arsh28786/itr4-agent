@@ -1,0 +1,79 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Generated Files
+*.xml
+*.pdf
+output/
+results/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project Specific
+config/sensitive/
+user_data/
+generated_forms/
